@@ -1,0 +1,27 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+.green-back {
+  height: 20%;
+  width: 100%;
+  background-color: #00a783;
+}
+.grey-back {
+  height: 80%;
+  width: 100%;
+  background-color: #e1dfdb;
+}
+.main-contents {
+  background-color: #fff;
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  height: 95%;
+  width: 95%;
+  margin: auto;
+  right: 0px;
+  left: 0px;
+  box-shadow: 2px 2px 5px rgba(3, 3, 3, 0.2);
+  
+}
