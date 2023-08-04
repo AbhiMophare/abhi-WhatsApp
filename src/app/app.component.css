@@ -29,7 +29,8 @@
 }
 .side-bar-container {
   display: block;
-  border: solid 1px grey;
+  /* shadow tobe adjusted latter  */
+  box-shadow: 2px 2px 5px rgba(176, 176, 176, 0.2);
   flex-basis: 30%;
   height: 100%;
 }
