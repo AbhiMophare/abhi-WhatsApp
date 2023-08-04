@@ -4,13 +4,43 @@
   width: 100%;
 }
 .avatar {
-  width: 40px;
+  width: 50px;
   /* background-color: red; */
   margin: 10px;
 }
 
-img {
+.avatar-img {
+  align-self: center;
   border-radius: 50%;
   cursor: pointer;
   display: block;
+  border: 1px solid rgba(175, 175, 175, 0.2);
+}
+
+.menubar {
+  height: 40px;
+  width: 100%;
+  /* background-color: red; */
+  margin: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.community-img {
+  padding: 6px;
+  cursor: pointer;
+}
+.status-img {
+  padding: 8px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.chat-img {
+  padding: 8px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.menu-img {
+  padding: 8px;
+  margin-left: 10px;
+  cursor: pointer;
 }
