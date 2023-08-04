@@ -1,10 +1,10 @@
 .container {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  align-items: center;
+  width: 98%;
   height: 5vh;
   background-color: blue;
-  margin: 5px;
 }
 .icon {
   width: 15%;
@@ -28,15 +28,15 @@
   display: flex;
   align-items: center;
 }
-/* input {
+input {
   border: none;
   border-color: transparent;
   background-color: #f0f2f5;
   color: gray;
-} */
-/* input:focus {
+}
+input:focus {
   outline: none;
-} */
+}
 .sort {
   width: 10%;
   background-color: red;
@@ -44,6 +44,7 @@
   justify-content: center;
   align-items: center;
 }
-/* .sort-img {
+.sort-img {
+  width: 20px;
   cursor: pointer;
-} */
+}
