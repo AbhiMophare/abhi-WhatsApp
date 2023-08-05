@@ -1,29 +1,28 @@
 .container {
   height: 100vh;
   width: 100vw;
+  display: flex;
+  justify-content: center;
 }
-.green-back {
-  height: 20%;
+/* .green-back {
+  height: 20vh;
   width: 100%;
   background-color: #00a783;
+  z-index: 1;
 }
 .grey-back {
-  height: 80%;
+  height: 80vh;
   width: 100%;
   background-color: #e1dfdb;
-}
+  z-index: 1;
+} */
+
 .main-contents {
   background-color: #fff;
-  position: fixed;
-  top: 0%;
-  bottom: 0%;
-  height: 95%;
-  width: 95%;
-  margin: auto;
-  right: 0px;
-  left: 0px;
+  height: 95vh;
+  width: max-content;
+  margin: 2em;
   box-shadow: 2px 2px 5px rgba(3, 3, 3, 0.2);
-
   display: flex;
   flex-direction: row;
 }
